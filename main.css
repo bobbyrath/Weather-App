@@ -9,12 +9,22 @@ html {
   font-family: Trebuchet MS, sans-serif;
 }
 
-h1, h2 {
+h1, h2{
   text-align: center;
-  color: #BFAD61;;
+  color: #BFAD61;
 }
 
-#weather {
+h2{
+  color: #B29000;
+}
+
+.temp, #tempunit {
+  cursor: pointer;
+  color: #006dcc;
+}
+
+
+#weather, #condition {
   color: white;
   font-weight: 900p;
 }
@@ -34,11 +44,11 @@ input {
   margin-bottom: 20px;
 }
 
-#getweather, #yourloc {
+input[type=button] {
   background-color: bisque;
   border: none;
 }
 
-#getweather:hover, #yourloc:hover {
+input[type=button]:hover {
   background-color: darkgoldenrod;
 }

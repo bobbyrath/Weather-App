@@ -4,11 +4,8 @@
   <title>Weather</title>
   <meta charset="utf-8" />
   <link href="main.css" rel="stylesheet" />
-
-
   </head>
   <body>
-
     <h1>Coding Temple Weather App</h1>
     <form>
     <input type ="button" id="yourloc" value="Your Location">
@@ -18,10 +15,14 @@
       <input type="text" name="state" id="state" placeholder="Enter a state...">
     </form>
     <h2 id="location"></h2>
-    <h2 id="weather"></h2>
+    <h2 id="weather" class="temp"></h2>
+    <h2 id="tempunit"></h2>
+    <h2 id="condition"></h2>
     <form>
-      <input type ="button" id="getweather" value="Get Weather">
-
+      <input type ="button" id="today" value="Today">
+       <input type ="button" id="five" value="5 Day">
+       <input type ="button" id="ten" value="10 Day">
+       <input type ="button" id="cleardata" value="Clear Data">
     </form>
   </body>
   <script
